@@ -1,0 +1,108 @@
+body {
+    font-family: cursive;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #ffffff;
+    background-color: #2B3499;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+header h2 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: #000000;
+}
+
+header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #000000;
+    font-size: medium;
+}
+
+img {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+}
+
+#bujursangkar {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+header h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+#rumus {
+    text-align: left;
+}
+
+#sisi {
+    margin-bottom: 20px;
+}
+
+.inputSection {
+    display: flex;
+    flex-direction: column;
+}
+
+#squareSide {
+    margin-top: 10px;
+    outline: none;
+    border-radius: 8px;
+    border: solid black;
+    padding: 10px;
+}
+
+#squareSide:focus {
+    border: solid blue;
+}
+
+button {
+    background-color: #2B3499;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: cursive;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#resetButton {
+    background-color: #FF9209;
+}
+
+#resetButton:hover {
+    background-color: #FF6C22;
+}
+
+#resetButton:active {
+    background-color: red;
+}
+
+button:hover {
+    background-color: #4CB9E7;
+}
+
+button:active {
+    background-color: green;
+    transform: translateY(2px);
+}
