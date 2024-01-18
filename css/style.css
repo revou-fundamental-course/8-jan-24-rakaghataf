@@ -106,3 +106,18 @@ button:active {
     background-color: green;
     transform: translateY(2px);
 }
+
+footer {
+    background-color: #2B3499;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+p {
+    text-align: center;
+}
+
+.footer-content {
+    margin-bottom: 15px;
+}
